@@ -1,0 +1,86 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1>Calc-Fast</h1>
+            <nav>
+                <ul>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h2>Lightning Fast Calculations</h2>
+                <p>Simple, intuitive, and powerful. Get your results instantly.</p>
+                <a href="#calculator" class="btn primary-btn">Start Calculating</a>
+            </div>
+        </section>
+
+        <section id="calculator" class="calculator-section section-padding">
+            <div class="container">
+                <h2>Basic Calculator</h2>
+                <div class="calculator-card">
+                    <div class="input-group">
+                        <label for="num1">First Number:</label>
+                        <input type="number" id="num1" value="0" placeholder="Enter first number" aria-label="First Number">
+                    </div>
+                    <div class="input-group">
+                        <label for="operator">Operator:</label>
+                        <select id="operator" aria-label="Operator">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                            <option value="/">/</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="num2">Second Number:</label>
+                        <input type="number" id="num2" value="0" placeholder="Enter second number" aria-label="Second Number">
+                    </div>
+                    <button id="calculateBtn" class="btn secondary-btn">Calculate</button>
+                    <div id="result-container" class="result-container">
+                        <h3>Result:</h3>
+                        <p id="result" class="result-text">Enter numbers and click Calculate.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2>About Calc-Fast</h2>
+                <p>This is a demonstration web application built with FastAPI for the backend and plain HTML, CSS, and JavaScript for the frontend. It showcases a simple API for basic arithmetic operations and a responsive, modern user interface.</p>
+                <p>Designed for learning and quick deployment on platforms like Render.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Calc-Fast. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+```
+
+---
